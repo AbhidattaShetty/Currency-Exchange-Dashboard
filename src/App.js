@@ -6,7 +6,7 @@ import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className=''>
+    <div>
     <Routes>
       <Route path='/' element={<Login />} />
       <Route path='/barchart' element={<BarChart />} />
